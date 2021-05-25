@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/bwstylesheet.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<title> In My Domain </title> 
+	<!--Insert your own business website title here -->
+</head>
+<body>
+	<div class="media">
+		<header>
+			<!--Insert your own profile pic here so that your audience can put a face to your name. Please keep it professional-->
+			<h1 class="animation-target"> In My Domain Web Developers </h1>
+				<!--Insert your own business name here or logo-->
+			<h2> We know how to craft a website! </h2>
+		</header>
+	</div>
+	<div id="dualp">
+		<nav>
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+				  <a class="nav-link active" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="portfolio.html">Portfolio</a>
+				</li>
+			  </ul>
+			</nav>
+		<!--Include a small bio of yourself and what your website is about.-->
+		<p>Greetings! My name is Sonny Rodriguez, I am a intermediate Web Development student.
+		I speak Spanish, I love animals, nature and gaming.</p>
+		<button type="button" onclick="myFunction()">My Hobbies</button>
+		<script>
+		function myFunction(toggle) {
+  			document.getElementById("dualp").innerHTML = "My hobbies include upgrading and customizing my gaming PC, longboarding and spending quality time with my lovely girlfriend.";
+		}
+		</script>
+	</div>
+	
+	<footer class="fixed-bottom">
+		<img src="images/logo.svg" class="img" alt="Logo" width="450" height="450">
+		<p>&copy; Copyright school year 2020-2021 | PTC Web Dev | 
+		<a href="mailto:ptc19.rodriguezs@myptc.edu"> e-mail Sonny R</a></p>
+	</footer>
+</div> <!--close the outerwrapper-->
+</body><!--don't forget to always close your body and html tags-->
+</html>
